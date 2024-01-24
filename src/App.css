@@ -1,6 +1,33 @@
 .form{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+}
+
+.ModalEdit{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-control {
+  border: none !important;
+  background-color: rgb(230, 230, 230) !important;
+ 
+}
+
+.SearchComponent
+{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  margin-left: 65%;
+}
+.btnAdd{
+  background-color: aqua !important;
+  color: black !important;
+  margin: 20px; 
+  display: flex;
+  margin-left: 85%;
+border: none !important;
 }
