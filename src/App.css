@@ -1,8 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .form{
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 
 .ModalEdit{
   display: flex;
@@ -24,10 +31,29 @@
   margin-left: 65%;
 }
 .btnAdd{
-  background-color: aqua !important;
+  background-color: rgb(147, 214, 255) !important;
   color: black !important;
   margin: 20px; 
+  
   display: flex;
-  margin-left: 85%;
+  margin-left: 71% !important;
+  height: 7vh;
 border: none !important;
 }
+button{
+  border: none;
+  border-radius: 10px !important;
+  background-color: rgb(210, 210, 210);
+  width: 22%;
+  margin-left: 6px !important;
+}
+.NavComp {
+  background-color: rgb(8, 80, 249);
+  color: rgb(0, 0, 0) !important;
+}
+.NavComp a{
+ color: rgb(255, 255, 255);
+}
+.NavComp a:hover{
+  color: rgb(255, 255, 255);
+ }

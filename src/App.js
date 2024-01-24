@@ -5,6 +5,7 @@ import FormCreate from './components/Form';
 import { CiSearch } from "react-icons/ci";
 import axios from 'axios';
 import './App.css';
+import NavComponent from './components/Nav';
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -57,8 +58,9 @@ function App() {
 
   const AllClient = ({ allClient }) => {
     return (
+      
       <div className="allClient">
-       
+      
         <div className='Table'>
           <Table hover>
             <thead>
@@ -96,6 +98,7 @@ function App() {
 
   return (
     <div className="App">
+       <NavComponent/>
       <header className="App-header">
         <div>
           <FormCreate />
