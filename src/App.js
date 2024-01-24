@@ -133,7 +133,7 @@ function App() {
                 value={editingClient ? editingClient.telefone : ''}
                 onChange={(e) => setEditingClient({ ...editingClient, telefone: e.target.value })}
               />
-              <Button color="primary" onClick={handleUpdate}>
+              <Button color="primary" onClick={handleUpdate} className='Save'>
                 Save Changes
               </Button>
             </div>

@@ -31,8 +31,8 @@
   margin-left: 65%;
 }
 .btnAdd{
-  background-color: rgb(147, 214, 255) !important;
-  color: black !important;
+  background-color: rgb(32, 84, 238) !important;
+  color: rgb(255, 255, 255) !important;
   margin: 20px; 
   
   display: flex;
@@ -56,4 +56,8 @@ button{
 }
 .NavComp a:hover{
   color: rgb(255, 255, 255);
+ }
+
+ .Save{
+  width: 100% !important;
  }
